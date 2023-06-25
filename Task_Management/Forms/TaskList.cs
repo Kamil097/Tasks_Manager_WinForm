@@ -82,6 +82,7 @@ namespace Task_Management.Forms
                 userIdColumn.DataPropertyName = "user_id";
                 userIdColumn.HeaderText = "user_id";
                 tasksDataGridView.Columns.Add(userIdColumn);
+                userIdColumn.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
             }
 
             tasksDataGridView.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;

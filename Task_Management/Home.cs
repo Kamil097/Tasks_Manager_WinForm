@@ -64,7 +64,10 @@ namespace Task_Management
                 OpenChildForm(new Forms.TaskList());
             }
             else
+            {
                 hideButtons();
+                registerButton.Show();
+            }
         }
 
 

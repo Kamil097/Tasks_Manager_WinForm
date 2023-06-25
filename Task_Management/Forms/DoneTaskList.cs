@@ -16,7 +16,7 @@ namespace Task_Management.Forms
         {
             InitializeComponent();
             listaZadan = ConnectDb.getTasks(userIndex, userName, 1);
-            doneTaskAmountLabel.Text = $"Done amount of tasks: {ConnectDb.getDoneTaskAmount(userIndex)}";
+            doneTaskAmountLabel.Text = $"Amount of tasks done: {ConnectDb.getDoneTaskAmount(userIndex)}";
             GenerujZadania();
             doneTasksDataGridView.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
         }

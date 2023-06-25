@@ -29,6 +29,7 @@ namespace Task_Management.Forms
                 {
                     MessageBox.Show("User has been added!");
                     Home.homeInstance.OpenChildForm(new Forms.LogIn());
+                    Home.homeInstance.RefreshForm();
                 }
             }
             else
