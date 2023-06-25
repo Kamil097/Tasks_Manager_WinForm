@@ -122,7 +122,7 @@ namespace Task_Management.Forms
             {
                 int rowIndex = e.RowIndex;
 
-                ConnectDb.removeTask(listaZadan[rowIndex].Id); // remove from database in order to save newer version ( I know, someone might want to leave this field without saving changes, world needs decided people ok)
+                ConnectDb.removeTask(listaZadan[rowIndex].Id); // remove from database in order to save newer version ( I know, someone might want to leave this field without saving changes, world needs decisive people ok)
                 ConnectDb.updateTaskAmount(userIndex, -1);
                 Home.homeInstance.OpenChildForm(new Forms.AddTask());
                 AddTask.nameTb.Text = listaZadan[e.RowIndex].Name;

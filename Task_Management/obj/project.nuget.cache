@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1nWdQVTXAlDrQfkgLE9452+PFnVMrXsSFzfuTmwe9Z6ASTGuYjnwk0ffyzi1IJw5ScsQWXsPUx41MTKSPelfSQ==",
+  "dgSpecHash": "Yd650BtcWkjf9z0jRIb90X+1i17xfS6LL/BEYEO1h6hx6fIBNbjpbyvYyIyH9J2rbc8ff4/+UJkIvtgIDpv+HA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kamil\\Desktop\\C# projects\\Task_Management\\Task_Management\\Task_Management.csproj",
+  "projectFilePath": "C:\\Users\\kamil\\Documents\\GitHub\\Tasks_Manager_WinForm\\Task_Management\\Task_Management.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kamil\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
     "C:\\Users\\kamil\\.nuget\\packages\\k4os.compression.lz4\\1.3.5\\k4os.compression.lz4.1.3.5.nupkg.sha512",
